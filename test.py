@@ -25,6 +25,12 @@ Example usage:
 # [START speech_transcribe_streaming_mic]
 from __future__ import division
 
+import io
+import os
+
+# 밑에 비밀키 json file의 path를 입력하면 터미널 작업을 간소화시킬 수 있습니다.
+# os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r"여기에다가 비밀키 path 입력"
+
 import re
 import sys
 
